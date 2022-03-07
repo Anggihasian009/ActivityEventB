@@ -5,15 +5,10 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="ActivityEventKelasB"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityKelasB">
-        <activity
-            android:name=".ActivityHasil"
-            android:exported="false"
-            android:label="Login Berhasil"
-            android:parentActivityName="MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
